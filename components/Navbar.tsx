@@ -30,7 +30,7 @@ export default function Navbar() {
                   </svg>
                 </div>
                 <span className="text-lg font-semibold text-white">
-                    WhisperLine
+                  WhisperLine
                 </span>
               </Link>
             </div>
@@ -71,10 +71,11 @@ export default function Navbar() {
               >
                 Contact
               </Link>
-              <button className="group flex h-9 items-center gap-2 rounded-full bg-red-500/10 pl-4 pr-5 text-sm font-medium text-red-500 ring-1 ring-inset ring-red-500/20 transition-all hover:bg-red-500/20">
+              <button className="group flex h-9 items-center gap-2 rounded-full bg-red-500/10 pl-4 pr-5 text-sm font-medium text-red-500 ring-1 ring-inset ring-red-500/20 transition-all hover:bg-red-500/20 md:h-10 md:pl-6 md:pr-7 md:text-base">
                 <span className="h-1.5 w-1.5 rounded-full bg-red-500 animate-pulse" />
-                Emergency: 911
+                <span className="hidden sm:inline">Emergency:</span> 911
               </button>
+
 
               {/* Mobile Menu Button */}
               <button
